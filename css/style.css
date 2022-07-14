@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-right: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header .container .logo h3{
+    font-size: 23px;
+    padding: 0 10px;
+}
+.header{
+    background: #2C3E50;
+    color: #fff;
+    height: 100px;
+    padding: 40px 0;
+}
+.header .logo{
+    float: left;
+}
+.header .menu{
+    float: right;
+}
+.header .menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.clear{
+    clear: both;
+}
+.section1{
+    text-align: center;
+    background: #1ABC9C;
+    color: #fff;
+    padding: 90px 0;
+}
+.section1 img{
+    width: 20%;
+}
+.section1 h1{
+    margin: 30px 0;
+    font-size: 64px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section1 .container p{
+    font-size: 20px;
+    margin-top:35px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.portfolio .portfolio-top{
+    text-align: center;
+    margin: 40px 0;
+}
+.portfolio .portfolio-items .portfolio-item{
+    width: 33.333%;
+    float: left;
+    padding: 15px;
+    border-radius: 10px;
+}
+.portfolio .portfolio-items .portfolio-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.portfolio .container .portfolio-top h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+
+
