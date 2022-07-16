@@ -64,6 +64,7 @@ body{
     float: left;
     padding: 15px;
     border-radius: 10px;
+    margin-top: 200px 0;
 }
 .portfolio .portfolio-items .portfolio-item img{
     width: 100%;
@@ -74,7 +75,56 @@ body{
     text-transform: uppercase;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 20px;
+  
 }
-
-
-
+.clear{
+    clear: both;
+}
+.section2{
+    text-align: center;
+    background: #1ABC9C;
+    color: #fff;
+    padding: 6rem 0;
+    margin: 47% 0 48px 0;
+}
+.section2 .container .about h1{
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.section2 .container .about .paragraph p{
+    font-size: 1.25rem;
+    padding: 0 90px 0 0;
+   
+}
+.section2 .container .about .paragraph2 p{
+    font-size: 1.25rem;
+    padding: 0 0 0 90px;
+    margin: 0 0 150px 0;
+    
+}
+.button .a {
+    color: #1abc9c;
+    text-decoration: underline;
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    border-color: #f8f9fa;
+    color: #f8f9fa;
+  }
+ .button .a:hover {
+    color: #15967d;
+  }
+  .clear{
+    clear: both;
+}
+.contact .container{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+.contact .container{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
